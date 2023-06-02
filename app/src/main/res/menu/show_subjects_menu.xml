@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/variables">
+        <menu >
+            <item android:title="@string/what_is_variables"
+                android:id="@+id/action_what_is_variables"/>
+            <item android:title="@string/variables_operations"
+                android:id="@+id/variable_operations"/>
+        </menu>
+    </item>
+    <item android:title="@string/if_else" >
+        <menu >
+            <item android:title="@string/if_else_nedir"
+                android:id="@+id/action_what_is_if_else"/>
+            <item android:title="@string/if_else_example"
+                android:id="@+id/action_if_else_example"/>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/loops" >
+        <menu >
+            <item android:title="@string/for_while_loop"
+                android:id="@+id/action_for_while_loop"/>
+            <item android:title="@string/for_each"
+                android:id="@+id/action_for_each"/>
+            <item android:title="@string/do_while"
+                android:id="@+id/action_do_while"/>
+            <item android:title="@string/loops_example"
+                android:id="@+id/action_loops_example"/>
+        </menu>
+    </item>
+
+</menu>

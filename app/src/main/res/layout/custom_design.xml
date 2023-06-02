@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.github.siyamed.shapeimageview.CircularImageView
+        android:id="@+id/bitmojiImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars"
+        app:siBorderColor="@color/white"
+        app:siBorderWidth="0dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bitmojiImageView"
+        app:layout_constraintEnd_toStartOf="@+id/goToPageButton"
+        app:layout_constraintStart_toEndOf="@+id/bitmojiImageView"
+        app:layout_constraintTop_toTopOf="@+id/bitmojiImageView">
+
+        <TextView
+            android:id="@+id/headerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toTopOf="@+id/explanationTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread"
+            />
+
+        <TextView
+            android:id="@+id/explanationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/explanation"
+            android:textColor="#E4039A6F"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headerTextView"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/goToPageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:onClick="onClick"
+        android:text="@string/go_to_page"
+        android:backgroundTint="@color/button_color"
+        app:layout_constraintBottom_toBottomOf="@+id/bitmojiImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bitmojiImageView" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/space"
+        android:layout_width="350dp"
+        android:layout_height="5dp"
+        android:background="@color/space_color"
+        android:alpha="0.5"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/goToPageButton"
+        app:layout_constraintStart_toStartOf="@+id/bitmojiImageView"
+        app:layout_constraintTop_toBottomOf="@+id/bitmojiImageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

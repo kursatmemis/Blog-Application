@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lesson_video_title_text">Ders Videosu</string>
+    <string name="selection_subject_text_view">Lütfen Bir Konu Seçiniz:</string>
+    <string name="showSubjectButtonText">Konuları Göster</string>
+</resources>

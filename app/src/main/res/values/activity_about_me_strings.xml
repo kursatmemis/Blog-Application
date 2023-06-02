@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="education_title_text">Eğitim</string>
+    <string name="education_info_text">Uludağ Üniversitesi\nSınıf: 4. Sınıf\nGano: 3.16\n</string>
+    <string name="expertises_title_text">Uzmanlıklar</string>
+    <string name="expertises_info_text">* Java\n* C\n* C++\n* Python\n* JavaScript\n* Kotlin\n</string>
+    <string name="languages_title_text">Diller</string>
+    <string name="languages_info_text">Ingilizce\n(Intermediate)\n</string>
+    <string name="referances_title_text">Referanslar</string>
+    <string name="referances_info_text">Name1 Surname1\n -05xx xxx xx xx\n\nName2 Surname2\n- -05xx xxx xx\n</string>
+    <string name="city_title_text">Şehir</string>
+    <string name="city_info_text">Bayburt\n</string>
+    <string name="military_status_title_text">Askerlik Durumu</string>
+    <string name="military_status_info_text">Tecilli\n</string>
+    <string name="about_me_infos_text">"Kişisel ve mesleki gelişimini önemseyen, bunun için gerekli emeği göstermekten çekinmeyen özverili, çalışkan ve sorumluluk sahibi bir bireyim. Öğrenme merakım ve azmim sayesinde, android uygulamalar geliştirmek için en popüler diller arasında yer alan 'Kotlin' dilini öğrenmek, projeler geliştirerek bu dilde yetkinlik kazanmak, bunların sonucunda Bilgisayar Mühendisliği kariyerime başlamadan önce var olan yetenek ve yetkinliklerimi geliştirmeyi hedefliyorum. "</string>
+    <string name="projects_title_text">Projeler</string>
+    <string name="projects_info_text">Math War\nAndroid Studio üzerinden Java programlama dilinde geliştirilen, iki kişilik matematik oyunu.\n\nCatch Jerry\nAndroid Studio üzerinden Java programlama dilinde geliştirilen, ekran üzerinde hareket halindeki Jerry karakterini yakalama oyunu.\n\nSayı Tahmini\nAndroid Studio üzerinden Java programlama dilinde geliştirilen, sayı tahmin oyunu.\n\nOnline Alışverişlerde Giderleri Optimal Düzeye İndirgeme\nİnternet üzerinden yapılan alışverişler için gider optimizasyonunu sağlamak adına
+Bilgisayar/Yazılım Mühendisliği bakış açışıyla çözüm fikirlerinin üretilmesi.\n\nInstagram Bot\nPython - Selenium kütüphanesi kullanarak Instagram üzerinde çeşitli faaliyetlerin
+gerçekleştirilmesini sağlayan, web tarayıcı üzerinde çalışan uygulama.
+</string>
+    <string name="courses_title_text"><![CDATA[Kurslar & Seçmeli Dersler]]></string>
+    <string name="courses_info_text"><![CDATA[Sıfırdan Zirveye Adım Adım Bol Uygulamalı Java Kursu - Emre Altunbilek (Udemy)\n\nSQL Kursu : Sıfırdan Sektörün Yükseklerine | 2020 - Engin Demiroğ (Udemy)\n\nPython ile Sıfırdan İleri Seviye Programlama - Sadık Turan (Udemy)\n\nVeri Yapıları ve Algoritmaları (C++ ile) - Sadık Şahin (Udemy)\n\nAndroid Mobil Uygulama Kursu : Kotlin & Java - Atıl Samancıoğlu (Udemy)\n\nİleri Veri Yapıları (Seçmeli Ders)\n\nPython Programlama (Seçmeli Ders) Yazılım Kalitesi ve Sınaması (Seçmeli Ders)]]></string>
+</resources>

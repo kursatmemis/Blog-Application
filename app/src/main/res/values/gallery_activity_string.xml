@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="variables">Değişenler</string>
+    <string name="what_is_variables">Değişkenler Nedir?</string>
+    <string name="variables_operations">Değişken İşlemleri</string>
+    <string name="if_else">If - Else</string>
+    <string name="loops">Döngüler</string>
+    <string name="for_while_loop">For-While-Döngüleri</string>
+    <string name="do_while">Do-While Döngüsü</string>
+    <string name="if_else_example">If-Else-Örneği</string>
+    <string name="if_else_nedir">If-Else Nedir?</string>
+    <string name="loops_example">Döngüler Örnek</string>
+    <string name="variables_explanation">
+        \nDeğişkenler, programlama dillerinde belirli bir değeri tutmak için ayrılmış bellek alanlarıdır. Bu değerler sayılar, metinler, boolean (doğru/yanlış) değerleri veya diğer veri türleri olabilir.
+        \nDeğişkenlerin ana işlevi, program içinde tutulması gereken verileri depolamaktır. Örneğin, bir programcı bir öğrencinin not ortalamasını hesaplamak istediğinde, notları saklamak için bir dizi değişken kullanabilir. Bu notlar daha sonra matematiksel bir formül kullanılarak hesaplanabilir ve sonuç başka bir değişkende saklanabilir.
+        \nDeğişkenler, aynı zamanda programlama dillerinde veri işleme işlevleri için de kullanılırlar. Örneğin, bir kullanıcının girdiği sayıların toplamını hesaplamak istediğinizde, toplamı saklamak için bir değişken kullanabilirsiniz. Daha sonra, kullanıcının girdiği sayıları toplayarak sonucu toplam değişkenine atayabilirsiniz.
+        \nKısacası, değişkenler programlama dillerinde önemli bir kavramdır ve programlamada kullanılan verilerin depolanması ve işlenmesi için kullanılırlar.
+    </string>
+    <string name="variables_operations_explanation">
+        \nDeğişken işlemlerinin temel amacı, değişkenlerde tutulan veriler üzerinde işlem yaparak yeni bir sonuç üretmektir. Örneğin, iki sayıyı toplamak için değişken işlemleri kullanılabilir. Bu işlemde, önceki örnekte olduğu gibi, iki sayı farklı değişkenlere atanır ve ardından bu değişkenler toplanır.Aşağıda bir C# örneği verilmiştir:
+        \nint sayi1 = 5;
+        \nint sayi2 = 10;
+        \nint toplam = sayi1 + sayi2;
+        \nConsole.WriteLine("Toplam: " + toplam);
+        \nYukarıdaki örnekte, "sayi1" ve "sayi2" değişkenleri toplanır ve sonuç "toplam" değişkenine atanır. Daha sonra, "Console.WriteLine()" yöntemi kullanılarak, "Toplam:" ifadesi ile birlikte toplam sonucu ekrana yazdırılır.
+    </string>
+    <string name="if_else_explanation">
+      \nif-else ifadesi, programlama dillerinde belirli bir koşulu kontrol ederek, belirli bir kod bloğunun çalıştırılmasını sağlar. Bu ifade, programlama dillerinde karar verme işlemlerinde sıklıkla kullanılır ve programların işlevselliğini arttırır.
+      \nif-else ifadesi, öncelikle belirli bir koşulun doğru olup olmadığını kontrol eder. Eğer koşul doğruysa, belirtilen kod bloğu çalıştırılır. Eğer koşul yanlışsa, farklı bir kod bloğu çalıştırılır.
+      \n Aşağıda bir C# örneği verilmiştir:
+      \nint sayi = 5;
+      \nif (sayi > 10)
+      \n{
+      \n    Console.WriteLine("Sayi, 10'dan büyüktür.");
+      \n}
+      \nelse
+      \n{
+      \n    Console.WriteLine("Sayi, 10'dan küçük veya eşittir.");
+      \n}
+    </string>
+    <string name="for_while_loop_explanation">
+    \nfor ve while döngüleri, programlama dillerinde belirli bir kod bloğunun belirli koşullar altında tekrar tekrar çalıştırılmasını sağlayan yapılar olarak kullanılır.
+    \nfor döngüsü, genellikle belirli bir aralıktaki değerler üzerinde işlem yapmak veya belirli bir sayıda tekrarlamak için kullanılır. Döngü, başlangıç değeri, koşul ve artış/değişim miktarı belirtilerek tanımlanır.
+    \nKısacası, for döngüsü belirli bir aralıktaki değerler üzerinde işlem yapmak için kullanılırken, while döngüsü belirli bir koşul doğru olduğu sürece çalışmaya devam eder. Her iki döngü de programlamada sıklıkla kullanılan yapılar arasındadır ve kodların tekrarlanmasını kolaylaştırır.
+    </string>
+    <string name="for_each_explanation">
+    \nFor-each döngüsü, bir dizi veya koleksiyon içindeki her öğe üzerinde dolaşmak için kullanılan bir döngüdür.
+    \nDöngü, koleksiyondaki her bir öğe için belirtilen bir işlemi gerçekleştirir ve ardından bir sonraki öğeye geçer.
+    \nFor-each döngüsü, koleksiyonun boyutunu otomatik olarak belirler ve döngüyü koleksiyondaki her öğe için tamamlar.
+    \nBu, kodun daha okunaklı ve anlaşılır hale gelmesine yardımcı olur.
+    </string>
+    <string name="do_while_explanation">
+    \nDo-while döngüsü, döngü koşulu doğru olduğu sürece döngüdeki işlemlerin yürütüleceği bir döngüdür.
+    \nDo-while döngüsü, diğer döngü yapılarından farklı olarak, döngü koşulunu en son kontrol eder.
+    \nBu nedenle, do-while döngüsü, döngüdeki işlemlerin en az bir kez yürütülmesini garanti eder.
+    \nDöngü, kod bloğunu yürütür ve ardından döngü koşulunu kontrol eder.
+    \nEğer koşul doğruysa, döngü tekrarlanır. Eğer koşul yanlışsa, döngü sona erer ve kod döngüden sonra devam eder.
+    \nBu yapı, bir döngüdeki işlemlerin en az bir kez yürütülmesi gerektiğinde kullanışlıdır.
+    </string>
+</resources>

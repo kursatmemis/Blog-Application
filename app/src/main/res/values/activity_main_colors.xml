@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fullNameTextViewColor">#000000</color>
+    <color name="jobTitleTextViewColor">#000000</color>
+    <color name="imageViewBorderColor">#000000</color>
+</resources>

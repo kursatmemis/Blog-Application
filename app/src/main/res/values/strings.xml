@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Blog-Application</string>
+    <string name="header">Header</string>
+    <string name="explanation">Explanation</string>
+    <string name="go_to_page">Sayfaya Git</string>
+    <string name="title_alert_dialog">Emin misiniz?</string>
+    <string name="permissionText">İşlemi onaylamak için \'evet\' yazınız.</string>
+    <string name="user_surname_hint">Lütfen Soyadınızı Giriniz…</string>
+    <string name="neutralButtonText">Bu Adımı Geç!</string>
+    <string name="positiveButtonText">Devam!</string>
+    <string name="negativeButtonText">Vazgeç!</string>
+    <string name="site_name">SiteName</string>
+    <string name="for_each">For-Each Döngüsü</string>
+    <string name="textual_expression_title">Sözel Anlatım</string>
+
+
+</resources>

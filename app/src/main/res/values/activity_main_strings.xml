@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fullNameText">Muhammet Kürşat Memiş</string>
+    <string name="job_title_text">Android Developer</string>
+    <string name="about_me_title_text">Hakkımda</string>
+    <string name="about_me_subtitle">Kendimi tanıtıyorum :)</string>
+    <string name="communication_title">İletişim</string>
+    <string name="communication_subtitle">Benimle iletişime geçin :)</string>
+    <string name="gallery_title">Galeri</string>
+    <string name="gallery_subtitle">Ufak bir C# tutorial…</string>
+    <string name="blog_title">Blog</string>
+    <string name="blog_subtitle">Github hesabım…</string>
+</resources>
